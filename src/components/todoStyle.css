@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.div {
+    background-image: url(./img/핑크\ 비디오\ 테이프.jpg);
+    font-family: 'DungGeunMo';
+    background-repeat: repeat;
+    width: 500px;
+    height: 100vh;
+    margin: 0 auto;
+    background-size: cover; 
+}
+
+.h1 {
+    padding: 40px 0;
+    padding-bottom: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.input {
+    background-color: rgb(247, 247, 247);
+    border: 2px solid rgb(167, 167, 167);
+    margin-right: 5px;
+    font-family: 'DungGeunMo';
+}
+
+.input_btn {
+    background-color: rgb(247, 247, 247);
+    border: 2px solid rgb(167, 167, 167);
+    font-family: 'DungGeunMo';
+}
+.input_btn:hover {
+    color: rgb(223, 220, 212);
+}
+
+.btn1 {
+    padding: 3px 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 9px;
+    font-family: 'DungGeunMo';
+    background-color: rgb(247, 247, 247);
+    border: 2px solid rgb(167, 167, 167);
+}
+
+.btn1:hover {
+    color: rgb(223, 220, 212);
+}
+
+.btn2 {
+    padding: 3px 25px;
+    font-size: 9px;
+    font-family: 'DungGeunMo';
+    background-color: rgb(247, 247, 247);
+    border: 2px solid rgb(167, 167, 167);
+}
+
+.btn2:hover {
+    color: rgb(223, 220, 212);
+}
+
+.ul {
+    color:rgb(0, 0, 0);
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px 100px;
+    position: relative;
+}
+
+li input[type="checkbox"] {
+    margin-right: 15px;
+}
+
+li p {
+    margin-right: 15px;
+}
+
+/* font center */
+li button {
+    margin-left: auto;
+    display : flex;
+    justify-content : center;
+    align-items: center;
+}
+
+/* check버튼 */
+input[type="checkbox"] {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(167, 167, 167);
+    border: 2px solid rgb(247, 247, 247);
+}
+
+input[type="checkbox"]:checked {
+    background-color: transparent;
+    background-color: rgb(247, 247, 247);
+    border: 2px solid rgb(167, 167, 167);
+}
+
+
+.li_btn {
+    font-family: 'DungGeunMo';
+    background-color: rgb(247, 247, 247);
+    border: 2px solid rgb(167, 167, 167);
+    width: 15px;
+    height: 15px;
+}
+
+.li_btn:hover {
+    color: rgb(223, 220, 212);
+}
+
+.on {
+    text-decoration: line-through;
+    color: rgb(167, 167, 167);
+}
